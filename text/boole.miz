@@ -33,8 +33,8 @@ proof
   let X be set;
          thus X \/ {} c= X
   proof
-    let x be object;
-    assume x in X \/ {};
+            let x be object;
+           assume x in X \/ {};
     then x in X or x in {} by XBOOLE_0:def 3;
     hence thesis by XBOOLE_0:def 1;
   end;
